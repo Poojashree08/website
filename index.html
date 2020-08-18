@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0d60e342f4.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+<style>
+    .img {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("new.jpg");
+height: 700px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+ 
+</style>
+</head>
+<body>
+<div class="img">
+    <header class="main">
+     <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="font-size: 2.88rem; color: #ea5455; font-weight: 600; ">TRAVEL</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#one">Famous<span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#two">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#three">New</a>
+                  </li>                 
+                </ul>
+                <button type="submit" class="btn btn-outline-danger btn-sm"><a class="nav-link" href="#">Login</a></button>
+            </div>
+
+        </nav>
+     </div>
+    </header>
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+             <h1>Hey, Traveller</h1>
+             <p>Wanna Explore More?</p>
+            <input type="text" name="search" placeholder="Search..">
+            </div>
+        </div>
+</div>
+    <section>
+    <div id="one">
+        <div class="container col-lg-6">
+    
+            <div class="line-header">
+                <div class="line-header-title">Famous places to visit</div>
+                <div class="line-header-caption">Unique places to break away</div>
+            </div>
+        </div>
+        <div class="container text-center my-3">
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="pic1.jpeg";><span>BANGALORE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="pic2.jpeg"><span>MUMBAI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="pic3.jpeg"><span>GOA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="pic4.jpeg"><span>DELHI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="pic5.jpeg"><span>DUBAI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="pic6.jpeg"><span>KERALA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="two">
+        <div class="container col-lg-6">
+            <div class="line-header">
+                <div class="line-header-title">Top Rated Experience on Travel</div>
+                <div class="line-header-caption">Quench your wanderlust with these specially curated experiencesy</div>
+            </div>
+        </div>
+        <div class="container text-center my-3">
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel1" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="card hover card-body">
+                                    <img class="img-fluid" src="pic1.jpeg";><span>BANGALORE</span>
+                                    <span class="overlay overlay-left">
+                                        <span class="text">best seller</span>
+                                    </span>
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab, optio aliquid eum dolores doloribus nobis ipsam nam vero tempora exercitationem illo. Accusantium laborum perferendis tenetur, eum odio quidem quis!</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small><button class="btn btn-warning">BOOK</button></p>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card hover card-body">
+                                    <img class="img-fluid" src="pic2.jpeg"><span>MUMBAI</span>
+                                    <span class="overlay overlay-left">
+                                        <span class="text">best seller</span>
+                                    </span>
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab, optio aliquid eum dolores doloribus nobis ipsam nam vero tempora exercitationem illo. Accusantium laborum perferendis tenetur, eum odio quidem quis!</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small><button class="btn btn-warning">BOOK</button></p>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card hover card-body">
+                                    <img class="img-fluid" src="pic3.jpeg"><span>GOA</span>
+                                    <span class="overlay overlay-left">
+                                        <span class="text">best seller</span>
+                                    </span>
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab, optio aliquid eum dolores doloribus nobis ipsam nam vero tempora exercitationem illo. Accusantium laborum perferendis tenetur, eum odio quidem quis!</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small><button class="btn btn-warning">BOOK</button></p>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card hover card-body">
+                                    <img class="img-fluid" src="pic4.jpeg"><span>DELHI</span>
+                                    <span class="overlay overlay-left">
+                                        <span class="text">best seller</span>
+                                    </span>
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab, optio aliquid eum dolores doloribus nobis ipsam nam vero tempora exercitationem illo. Accusantium laborum perferendis tenetur, eum odio quidem quis!</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small><button class="btn btn-warning">BOOK</button></p>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card hover card-body">
+                                    <img class="img-fluid" src="pic5.jpeg"><span>DUBAI</span>
+                                    <span class="overlay overlay-left">
+                                        <span class="text">Featured</span>
+                                    </span>
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab, optio aliquid eum dolores doloribus nobis ipsam nam vero tempora exercitationem illo. Accusantium laborum perferendis tenetur, eum odio quidem quis!</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small><button class="btn btn-warning">BOOK</button></p>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card hover card-body">
+                                    <img class="img-fluid" src="pic6.jpeg"><span>KERALA</span>
+                                    <span class="overlay overlay-left">
+                                        <span class="text">best seller</span>
+                                    </span>
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab, optio aliquid eum dolores doloribus nobis ipsam nam vero tempora exercitationem illo. Accusantium laborum perferendis tenetur, eum odio quidem quis!</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small><button class="btn btn-warning">BOOK</button></p>
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+          <div class="box">
+            <div class="box-wrap">
+            <div class="col-lg-12 col-sm-6">
+              <h2 class="page-h1">What makes us different</h2>
+            </div>
+              <div class="w-usp-row text-center">
+            <div class="row">
+            <div class="w-usp-column col-lg-6 col-sm-12">
+            <i class="fa fa-shield fa-3x"></i>
+            <h4>Safety first</h4>
+            <p class="d-none d-sm-block">
+            As a pioneer in all-women travel, we design trips keeping women's safety as top priority. We make sure that no corners are cut when it comes to your security.
+            </p>
+            </div>
+            <div class="w-usp-column col-lg-6">
+            <i class="fa fa-glass fa-3x"></i>
+            <h4>Birds of a feather</h4>
+            <p class=" d-none d-sm-block">
+            You will find your tribe on the same journey you take to find yourself. Come on a trip with us and discover friendships you will cherish for a lifetime.
+            </p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="w-usp-column col-lg-6">
+            <i class="fa fa-users fa-3x"></i>
+            <h4>The road not taken</h4>
+            <p class="d-none d-sm-block">
+            We create adventures of a lifetime on a regular basis. Join us for an experience as unique as you.
+            </p>
+            </div>
+            <div class="w-usp-column col-lg-6">
+            <i class="fa fa-suitcase fa-3x"></i>
+            <h4>All-in-one travel</h4>
+            <p class=" d-none d-sm-block">
+            You will never have the hassle of organising or missing details when you set out by yourself again. We are your one-stop-shop for all things travel. Just say the word.
+            </p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    <div id="three">
+        <div class="container-fluid col-lg-12">
+            <div class="last">
+              <div class="last-context">
+                <h2 class="last-text">NEWLY ADDED</h2>
+                <p class="last-para">Bhutan-The Land<br> Of Happiness</p>
+                <button class="btn btn-warning">Explore Now</button>
+              </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <footer class="footer-section">
+     <div class="foot">
+        <div class="social">
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-pinterest-square"></i>
+        </div>
+         <div class="copyright">
+           <p>© Copyright 2020 TRAVEL</p>
+         </div>
+    </div>
+       </footer>
+
+
+</body>
+<script>
+$('#recipeCarousel').carousel({
+    interval: 10000
+  })
+  
+  $('.carousel .carousel-item').each(function(){
+      var minPerSlide = 4;
+      var next = $(this).next();
+      if (!next.length) {
+      next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<minPerSlide;i++) {
+          next=next.next();
+          if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+          
+          next.children(':first-child').clone().appendTo($(this));
+        }
+  });
+</script>
+<script>
+    $('#recipeCarousel1').carousel({
+        interval: 10000
+      })
+      
+      $('.carousel .carousel-item').each(function(){
+          var minPerSlide = 4;
+          var next = $(this).next();
+          if (!next.length) {
+          next = $(this).siblings(':first');
+          }
+          next.children(':first-child').clone().appendTo($(this));
+          
+          for (var i=0;i<minPerSlide;i++) {
+              next=next.next();
+              if (!next.length) {
+                  next = $(this).siblings(':first');
+                }
+              
+              next.children(':first-child').clone().appendTo($(this));
+            }
+      });
+    </script>
+
+  
+</html>

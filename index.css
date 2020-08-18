@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-nav .nav-item  > a:hover {
+    box-shadow: 0 4px 0 0 #ea5455 !important; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
+    padding-bottom: 10px;
+    opacity: 1 !important;
+   }
+
+.row {
+    margin-left: 25%;
+    margin-right: 0px;
+}
+
+.row h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.row p {
+    color: #fff;
+    font-size: 25px;
+}
+input[type=text] {
+    width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ea5455;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  input {
+      margin-top: 30px;
+  }
+
+  .line-header {
+      position: relative;
+      padding-left: 25px;
+  }
+
+    .line-header:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 0;
+        border-left: 4px solid #ff5300;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: 50px auto;
+    }
+
+    .line-header-title {
+        margin-top: 10px;
+        font-size: 3rem;
+        text-transform: capitalize;
+        letter-spacing: -1.3px;
+        padding-bottom: 10px;
+        font-weight: 700;
+
+    }
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    opacity: none;
+}
+
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    opacity: 10;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.img-fluid {
+    height: 300px;
+}
+.bg-dark {
+    background-color: #222831!important;
+}
+.card {
+    position: relative;
+}
+
+.overlay-left {
+    position: absolute;
+    left: -5%;
+    top: 4%;
+    z-index: 20;
+}
+
+.text {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.card-text {
+    text-align: left;
+
+}
+
+.card img {
+        -webkit-transform: rotate(10deg) scale(1.4);
+        transform: rotate(10deg) scale(1.4);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+.card:hover img {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+    }
+
+span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #222831;
+}
+.row p{
+    color: black;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.overlay {
+    background-image: linear-gradient(to left, #5b109b, #ff0058);
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0.8rem 2rem 0.8rem 0.8rem;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 90% 50%, 100% 0);
+    text-transform: uppercase;
+}
+
+small {
+    font-size: 50%;
+    margin-right: 10px;
+}
+
+.box {
+    position: relative;
+    background-color: #fce38a;
+    height: 750px;
+}
+
+.page-h1 {
+    position: absolute;
+    padding: 20px 20px 70px 20px;
+    font-family:'Dancing Script', cursive;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.w-usp-column {
+    top: 150px;
+    right: 60px;
+    padding: 30px;
+}
+
+.bhutan {
+    width: 100%;
+}
+.last {
+    background-image: url("bhutan.jpg");
+    height: 700px;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 500px;
+}
+
+.last-context {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.last-text {
+    color: orange;
+    font-size: 25px;
+}
+
+.last-para {
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+}
+.footer-section {
+    text-align: center;
+}
+.foot {
+    background-color: grey;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+
+
+/* -------------------------- */
+
+li, a, button {
+
+ font-size: 15px;
+ color: #fff;
+ font-weight: 500;
+}
+ .nav-items {
+     cursor: pointer;
+ }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.nav-items li {
+    display: inline;
+    margin: 15px;
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+
+
+.logo {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 70px;
+    color: palevioletred;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: pink;
+    border: none;
+    border-radius: 48px;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover {
+    background-color: palevioletred;
+}
+
+.heading {
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    font-size: 2.88rem;
+    color: #fff;
+}
+
+
+
+  
